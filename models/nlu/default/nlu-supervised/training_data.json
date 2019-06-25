@@ -1,0 +1,1479 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "hotel",
+            "entity": "property_type"
+          }
+        ],
+        "text": "I need a hotel"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "hotel",
+            "entity": "property_type"
+          }
+        ],
+        "text": "find a hotel"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "hostel",
+            "entity": "property_type"
+          }
+        ],
+        "text": "I'm looking for a hostel"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "find an accomodation"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "I need an accomodation"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "I need to find an accomodation"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "I'm looking for a place"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "I'm looking for an accomodation"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "4",
+            "entity": "num_people"
+          }
+        ],
+        "text": "an accomodation for four people"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "Turin",
+            "entity": "city"
+          }
+        ],
+        "text": "an accomodation in Turin"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "value": "hotel",
+            "entity": "property_type"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Rome",
+            "entity": "city"
+          }
+        ],
+        "text": "a hotel in Rome"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "value": "hotel",
+            "entity": "property_type"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "june 1st",
+            "entity": "check_in"
+          },
+          {
+            "start": 25,
+            "end": 34,
+            "value": "june 10th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "a hotel from june 1st to june 10th"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "5",
+            "entity": "stars"
+          }
+        ],
+        "text": "a five hotel"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "apartment",
+            "entity": "property_type"
+          }
+        ],
+        "text": "I want to find an apartment"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 37,
+            "end": 44,
+            "value": "may 2nd",
+            "entity": "check_in"
+          },
+          {
+            "start": 48,
+            "end": 55,
+            "value": "may 9th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "I need an accomodation for the dates may 2nd to may 9th"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "4",
+            "entity": "stars"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "value": "hotel",
+            "entity": "property_type"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "center",
+            "entity": "position"
+          },
+          {
+            "start": 39,
+            "end": 45,
+            "value": "Madrid",
+            "entity": "city"
+          },
+          {
+            "start": 60,
+            "end": 68,
+            "value": "june 2nd",
+            "entity": "check_in"
+          },
+          {
+            "start": 72,
+            "end": 80,
+            "value": "july 9th",
+            "entity": "check_out"
+          },
+          {
+            "start": 85,
+            "end": 86,
+            "value": "2",
+            "entity": "num_people"
+          }
+        ],
+        "text": "I need a 4 star hotel in the center of Madrid for the dates june 2nd to july 9th for 2 people"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "uh yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "um yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes knocking"
+      },
+      {
+        "intent": "affirm",
+        "text": "that's correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "right"
+      },
+      {
+        "intent": "affirm",
+        "text": "yea"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes right"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes and i dont care"
+      },
+      {
+        "intent": "affirm",
+        "text": "right on"
+      },
+      {
+        "intent": "affirm",
+        "text": "i love that"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "no new selection"
+      },
+      {
+        "intent": "deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "no thank you"
+      },
+      {
+        "intent": "deny",
+        "text": "uh no"
+      },
+      {
+        "intent": "deny",
+        "text": "breath no"
+      },
+      {
+        "intent": "deny",
+        "text": "do you have something else"
+      },
+      {
+        "intent": "deny",
+        "text": "no this does not work for me"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Trapani",
+            "entity": "city"
+          }
+        ],
+        "text": "Trapani"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Bergamo",
+            "entity": "city"
+          }
+        ],
+        "text": "Bergamo"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Tirana",
+            "entity": "city"
+          }
+        ],
+        "text": "in Tirana"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "Madrid",
+            "entity": "city"
+          }
+        ],
+        "text": "the city is Madrid"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "center",
+            "entity": "position"
+          }
+        ],
+        "text": "in the city center"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "east",
+            "entity": "position"
+          }
+        ],
+        "text": "in the east side"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "west",
+            "entity": "position"
+          }
+        ],
+        "text": "in the west side"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "south",
+            "entity": "position"
+          }
+        ],
+        "text": "in the south side"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "north",
+            "entity": "position"
+          },
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Madrid",
+            "entity": "city"
+          }
+        ],
+        "text": "in the north side of Madrid"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "center",
+            "entity": "position"
+          },
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Barcelona",
+            "entity": "city"
+          }
+        ],
+        "text": "in the center of Barcelona"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "north",
+            "entity": "position"
+          }
+        ],
+        "text": "north"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "east",
+            "entity": "position"
+          }
+        ],
+        "text": "east"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "south",
+            "entity": "position"
+          }
+        ],
+        "text": "south"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "west",
+            "entity": "position"
+          }
+        ],
+        "text": "west"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "center",
+            "entity": "position"
+          }
+        ],
+        "text": "center"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "suburbs",
+            "entity": "position"
+          }
+        ],
+        "text": "suburbs"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "west",
+            "entity": "position"
+          }
+        ],
+        "text": "west side of the city"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "north",
+            "entity": "position"
+          }
+        ],
+        "text": "north side of the city"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "south",
+            "entity": "position"
+          }
+        ],
+        "text": "south side of the city"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "east",
+            "entity": "position"
+          }
+        ],
+        "text": "east side of the city"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "10",
+            "entity": "num_people"
+          }
+        ],
+        "text": "for 10 people"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "num_people"
+          }
+        ],
+        "text": "2 people"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 5,
+            "value": "3",
+            "entity": "num_people"
+          }
+        ],
+        "text": "for 3 people"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 6,
+            "value": "1",
+            "entity": "num_people"
+          }
+        ],
+        "text": "just 1 person"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "7",
+            "entity": "num_people"
+          }
+        ],
+        "text": "book for 7 people"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "num_people"
+          }
+        ],
+        "text": "2 people please"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "1",
+            "entity": "num_people"
+          }
+        ],
+        "text": "1"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "num_people"
+          }
+        ],
+        "text": "2"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "3",
+            "entity": "num_people"
+          }
+        ],
+        "text": "3"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "4",
+            "entity": "num_people"
+          }
+        ],
+        "text": "4"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "april 26th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "april 26th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "may 25th",
+            "entity": "check_in"
+          },
+          {
+            "start": 12,
+            "end": 24,
+            "value": "november 7th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "may 25th to november 7th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "january 8th",
+            "entity": "check_in"
+          },
+          {
+            "start": 15,
+            "end": 29,
+            "value": "september 16th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "january 8th to september 16th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "july 15th",
+            "entity": "check_in"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "june 30th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "july 15th to june 30th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 18,
+            "value": "february 28th",
+            "entity": "check_in"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "march 7th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "from february 28th to march 7th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "january 8th",
+            "entity": "check_in"
+          },
+          {
+            "start": 20,
+            "end": 32,
+            "value": "january 16th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "from january 8th to january 16th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "july 15th",
+            "entity": "check_in"
+          },
+          {
+            "start": 18,
+            "end": 27,
+            "value": "july 30th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "from july 15th to july 30th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "august 9th",
+            "entity": "check_in"
+          },
+          {
+            "start": 19,
+            "end": 30,
+            "value": "august 13th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "from august 9th to august 13th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 18,
+            "value": "september 3rd",
+            "entity": "check_in"
+          },
+          {
+            "start": 22,
+            "end": 35,
+            "value": "september 7th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "from september 3rd to september 7th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 18,
+            "value": "february 15th",
+            "entity": "check_in"
+          }
+        ],
+        "text": "from february 15th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 17,
+            "value": "november 7th",
+            "entity": "check_in"
+          }
+        ],
+        "text": "from november 7th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "april 16th",
+            "entity": "check_in"
+          }
+        ],
+        "text": "from april 16th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "august 29th",
+            "entity": "check_in"
+          }
+        ],
+        "text": "from august 29th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 18,
+            "value": "september 3rd",
+            "entity": "check_in"
+          }
+        ],
+        "text": "from september 3rd"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "april 30th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "to april 30th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 16,
+            "value": "december 10th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "to december 10th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "june 3rd",
+            "entity": "check_out"
+          }
+        ],
+        "text": "to june 3rd"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "june 3rd",
+            "entity": "check_out"
+          }
+        ],
+        "text": "until june 3rd"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "march 22nd",
+            "entity": "check_out"
+          }
+        ],
+        "text": "to march 22nd"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "may 23rd",
+            "entity": "check_out"
+          }
+        ],
+        "text": "until may 23rd"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "october 4th",
+            "entity": "check_out"
+          }
+        ],
+        "text": "to october 4th"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "5",
+            "entity": "stars"
+          }
+        ],
+        "text": "5 stars"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "3",
+            "entity": "stars"
+          }
+        ],
+        "text": "at least 3 stars"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "3",
+            "entity": "stars"
+          }
+        ],
+        "text": "3 star"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "2",
+            "entity": "stars"
+          }
+        ],
+        "text": "at least 2"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "4",
+            "entity": "stars"
+          }
+        ],
+        "text": "a 4 star hotel"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "value": "guest house",
+            "entity": "property_type"
+          }
+        ],
+        "text": "a guest house"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "hostel",
+            "entity": "property_type"
+          }
+        ],
+        "text": "im looking for a hostel"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "apartment",
+            "entity": "property_type"
+          }
+        ],
+        "text": "im looking for an apartment"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "b&b",
+            "entity": "property_type"
+          }
+        ],
+        "text": "i need a b&b"
+      },
+      {
+        "intent": "thankyou",
+        "text": "um thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "okay cool uh good bye thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "okay thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "you rock"
+      },
+      {
+        "intent": "thankyou",
+        "text": "and thats all thank you and good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you and good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "sorry about my mistakes thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "noise thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you goodbye noise"
+      },
+      {
+        "intent": "thankyou",
+        "text": "okay thank you goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "uh thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "ah thank you goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you noise"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "breath thank you very much goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "noise thank you goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "unintelligible thank you goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "uh okay thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "um okay thank you good bye"
+      },
+      {
+        "intent": "chitchat",
+        "text": "i want to know the company which generated you"
+      },
+      {
+        "intent": "chitchat",
+        "text": "i want to know the company which invented you"
+      },
+      {
+        "intent": "chitchat",
+        "text": "i want to know who invented you"
+      },
+      {
+        "intent": "chitchat",
+        "text": "May I ask who invented you?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "please tell me the company who created you"
+      },
+      {
+        "intent": "chitchat",
+        "text": "please tell me who created you"
+      },
+      {
+        "intent": "chitchat",
+        "text": "tell me more about your creators"
+      },
+      {
+        "intent": "chitchat",
+        "text": "tell me more about your founders"
+      },
+      {
+        "intent": "chitchat",
+        "text": "Ahoy matey how are you?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "are you alright"
+      },
+      {
+        "intent": "chitchat",
+        "text": "are you having a good day"
+      },
+      {
+        "intent": "chitchat",
+        "text": "Are you ok?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "are you okay"
+      },
+      {
+        "intent": "chitchat",
+        "text": "Do you feel good?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "how are things going"
+      },
+      {
+        "intent": "chitchat",
+        "text": "how are things with you?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "How are things?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "how are you"
+      },
+      {
+        "intent": "chitchat",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "chitchat",
+        "text": "how are you doing this morning"
+      },
+      {
+        "intent": "chitchat",
+        "text": "how are you feeling"
+      },
+      {
+        "intent": "chitchat",
+        "text": "how are you today"
+      },
+      {
+        "intent": "chitchat",
+        "text": "How are you?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "How is the weather today?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "What's the weather like?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "How is the weather?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "What is the weather at your place?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "Do you have good weather?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "Is it raining?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "What's it like out there?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "Is it hot or cold?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "Beautiful day, isn't it?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "What's the weather forecast?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "Is it quite breezy outside?"
+      },
+      {
+        "intent": "stop",
+        "text": "i changed my mind"
+      },
+      {
+        "intent": "stop",
+        "text": "i don't need you"
+      },
+      {
+        "intent": "stop",
+        "text": "please stop"
+      },
+      {
+        "intent": "stop",
+        "text": "ok then you cant help me"
+      },
+      {
+        "intent": "stop",
+        "text": "it's not what i'm looking for"
+      },
+      {
+        "intent": "stop",
+        "text": "that was shit, you're not helping"
+      },
+      {
+        "intent": "stop",
+        "text": "you can't help me"
+      },
+      {
+        "intent": "stop",
+        "text": "you can't help me with what i need"
+      },
+      {
+        "intent": "stop",
+        "text": "i guess you can't help me then"
+      },
+      {
+        "intent": "stop",
+        "text": "ok i guess you can't help me"
+      },
+      {
+        "intent": "stop",
+        "text": "that's not what i want"
+      },
+      {
+        "intent": "stop",
+        "text": "ok, but that doesnt help me"
+      },
+      {
+        "intent": "stop",
+        "text": "this is leading to nothing"
+      },
+      {
+        "intent": "stop",
+        "text": "this conversation is not really helpful"
+      },
+      {
+        "intent": "stop",
+        "text": "you cannot help me with what I want"
+      },
+      {
+        "intent": "stop",
+        "text": "I think you cant help me"
+      },
+      {
+        "intent": "stop",
+        "text": "hm i don't think you can do what i want"
+      },
+      {
+        "intent": "stop",
+        "text": "stop"
+      },
+      {
+        "intent": "stop",
+        "text": "stop go back"
+      },
+      {
+        "intent": "stop",
+        "text": "do you get anything?"
+      },
+      {
+        "intent": "stop",
+        "text": "and you call yourself bot company? pff"
+      },
+      {
+        "intent": "stop",
+        "text": "and that's it?"
+      },
+      {
+        "intent": "stop",
+        "text": "nothing else?"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "city",
+        "elements": "data/cities.txt"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "4",
+        "synonyms": [
+          "four"
+        ]
+      },
+      {
+        "value": "5",
+        "synonyms": [
+          "five"
+        ]
+      }
+    ]
+  }
+}

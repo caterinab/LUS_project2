@@ -1,0 +1,24 @@
+# train dialogue model
+python -m rasa_core.train -d domain.yml -s data/stories.md -c policies.yml -o models/dialogue
+# train NLU model
+python -m rasa_nlu.train -d data/nlu_data.md -c nlu_config.yml -o models/nlu
+# start action server
+python -m rasa_core_sdk.endpoint --actions actions
+# start agent
+python -m rasa_core.run -d models/dialogue/ -u models/nlu/default/model_20190622-152212/ --endpoints endpoints.yml
+
+# training embeddingpolicy
+python -m rasa_core.train -d domain.yml -s data/stories.md -c policies2.yml -o models/d_compare --augmentation 0
+
+# start rasa x
+python -m rasa x
+
+#test core model
+python -m rasa_core.test --core models/d_compare/keras -s data/stories_test.md
+
+# train both NLU and core
+python -m rasa train -augmentation 0
+
+# interactive learning
+python -m rasa interactive -m models/20190622-195645.tar.gz --endpoints endpoints.yml
+

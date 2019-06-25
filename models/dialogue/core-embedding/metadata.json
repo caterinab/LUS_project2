@@ -1,0 +1,33 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "hotel_form": {
+      "slots": []
+    },
+    "action_deactivate_form": {
+      "slots": []
+    }
+  },
+  "python": "3.6.7",
+  "max_histories": [
+    null,
+    null,
+    2,
+    5,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.embedding_policy.EmbeddingPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.form_policy.FormPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.mapping_policy.MappingPolicy"
+  ],
+  "trained_at": "20190622-152651",
+  "rasa_core": "0.14.4",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.3"
+}

@@ -1,0 +1,230 @@
+## intent:affirm
+- yeah
+- uh yes
+- um yes
+- yes knocking
+- that's correct
+- yes yes
+- right
+- yea
+- yes
+- yes right
+- yes and i dont care
+- right on
+- i love that
+
+## intent:chitchat
+- i want to know the company which generated you
+- i want to know the company which invented you
+- i want to know who invented you
+- May I ask who invented you?
+- please tell me the company who created you
+- please tell me who created you
+- tell me more about your creators
+- tell me more about your founders
+- Ahoy matey how are you?
+- are you alright
+- are you having a good day
+- Are you ok?
+- are you okay
+- Do you feel good?
+- how are things going
+- how are things with you?
+- How are things?
+- how are you
+- how are you doing
+- how are you doing this morning
+- how are you feeling
+- how are you today
+- How are you?
+- How is the weather today?
+- What's the weather like?
+- How is the weather?
+- What is the weather at your place?
+- Do you have good weather?
+- Is it raining?
+- What's it like out there?
+- Is it hot or cold?
+- Beautiful day, isn't it?
+- What's the weather forecast?
+- Is it quite breezy outside?
+
+## intent:deny
+- no
+- no new selection
+- no thanks
+- no thank you
+- uh no
+- breath no
+- do you have something else
+- no this does not work for me
+
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- Good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hi
+- hello bot
+- hey there
+- hi
+
+## intent:inform
+- [Trapani](city)
+- [Bergamo](city)
+- in [Tirana](city)
+- the city is [Madrid](city)
+- in the city [center](position)
+- in the [east](position) side
+- in the [west](position) side
+- in the [south](position) side
+- in the [north](position) side of [Madrid](city)
+- in the [center](position) of [Barcelona](city)
+- [north](position)
+- [east](position)
+- [south](position)
+- [west](position)
+- [center](position)
+- [suburbs](position)
+- [west](position) side of the city
+- [north](position) side of the city
+- [south](position) side of the city
+- [east](position) side of the city
+- for [10](num_people) people
+- [2](num_people) people
+- for [3](num_people) people
+- just [1](num_people) person
+- book for [7](num_people) people
+- [2](num_people) people please
+- [1](num_people)
+- [2](num_people)
+- [3](num_people)
+- [4](num_people)
+- [april 26th](check_out)
+- [may 25th](check_in) to [november 7th](check_out)
+- [january 8th](check_in) to [september 16th](check_out)
+- [july 15th](check_in) to [june 30th](check_out)
+- from [february 28th](check_in) to [march 7th](check_out)
+- from [january 8th](check_in) to [january 16th](check_out)
+- from [july 15th](check_in) to [july 30th](check_out)
+- from [august 9th](check_in) to [august 13th](check_out)
+- from [september 3rd](check_in) to [september 7th](check_out)
+- from [february 15th](check_in)
+- from [november 7th](check_in)
+- from [april 16th](check_in)
+- from [august 29th](check_in)
+- from [september 3rd](check_in)
+- to [april 30th](check_out)
+- to [december 10th](check_out)
+- to [june 3rd](check_out)
+- until [june 3rd](check_out)
+- to [march 22nd](check_out)
+- until [may 23rd](check_out)
+- to [october 4th](check_out)
+- [5](stars) stars
+- at least [3](stars) stars
+- [3](stars) star
+- at least [2](stars)
+- a [4](stars) star hotel
+- a [guest house](property_type)
+- im looking for a [hostel](property_type)
+- im looking for an [apartment](property_type)
+- i need a [b&b](property_type)
+- i want to book a [b&b](property_type) for [6](num_people) people in [berlin](city)
+
+## intent:request_hotel
+- I need a [hotel](property_type)
+- find a [hotel](property_type)
+- I'm looking for a [hostel](property_type)
+- find an accomodation
+- I need an accomodation
+- I need to find an accomodation
+- I'm looking for a place
+- I'm looking for an accomodation
+- an accomodation for [four](num_people:4) people
+- an accomodation in [Turin](city)
+- a [hotel](property_type) in [Rome](city)
+- a [hotel](property_type) from [june 1st](check_in) to [june 10th](check_out)
+- a [five](stars:5) hotel
+- I want to find an [apartment](property_type)
+- I need an accomodation for the dates [may 2nd](check_in) to [may 9th](check_out)
+- I need a [4](stars) star [hotel](property_type) in the [center](position) of [Madrid](city) for the dates [june 2nd](check_in) to [july 9th](check_out) for [2](num_people) people
+- i need an [apartment](property_type) for [2](num_people)
+- i want to book a [hostel](property_type) for [6](num_people) people in [berlin](city)
+- i want to book a [hotel](property_type) at least a [3](stars) star
+- i need an [apartment](property_type) from [january 1](check_in) to [january](check_out) [7](num_people)
+- i need an [apartment](property_type) from [january 1](check_in) to [january 7](check_out)
+
+## intent:stop
+- i changed my mind
+- i don't need you
+- please stop
+- ok then you cant help me
+- it's not what i'm looking for
+- that was shit, you're not helping
+- you can't help me
+- you can't help me with what i need
+- i guess you can't help me then
+- ok i guess you can't help me
+- that's not what i want
+- ok, but that doesnt help me
+- this is leading to nothing
+- this conversation is not really helpful
+- you cannot help me with what I want
+- I think you cant help me
+- hm i don't think you can do what i want
+- stop
+- stop go back
+- do you get anything?
+- and you call yourself bot company? pff
+- and that's it?
+- nothing else?
+
+## intent:thankyou
+- thanks for the help
+- um thank you good bye
+- okay cool uh good bye thank you
+- okay thank you good bye
+- you rock
+- and thats all thank you and good bye
+- thank you and good bye
+- sorry about my mistakes thank you good bye
+- noise thank you good bye
+- thank you goodbye noise
+- okay thank you goodbye
+- uh thank you good bye
+- thank you goodbye
+- ah thank you goodbye
+- thank you noise
+- thank you good bye
+- breath thank you very much goodbye
+- thanks
+- noise thank you goodbye
+- unintelligible thank you goodbye
+- uh okay thank you good bye
+- thank you bye
+- um okay thank you good bye
+- thank you
+- thank you bot
+- thanks
+- thanks a lot
+
+## synonym:4
+- four
+
+## synonym:5
+- five
+
+## lookup:city
+  data/cities.txt

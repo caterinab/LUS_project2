@@ -1,0 +1,40 @@
+supervised
+2019-06-22 16:36:39 INFO     __main__  - F1-Score:  0.8159725231514919
+2019-06-22 16:36:39 INFO     __main__  - Precision: 0.8585271317829457
+2019-06-22 16:36:39 INFO     __main__  - Accuracy:  0.7906976744186046
+2019-06-22 16:36:39 INFO     __main__  - Classification report: 
+               precision    recall  f1-score   support
+
+       affirm       0.33      0.25      0.29         4
+     chitchat       0.50      0.33      0.40         3
+         deny       1.00      0.50      0.67         2
+        greet       0.92      0.92      0.92        13
+       inform       0.92      1.00      0.96        11
+request_hotel       1.00      0.80      0.89         5
+         stop       0.00      0.00      0.00         0
+     thankyou       1.00      0.80      0.89         5
+
+    micro avg       0.79      0.79      0.79        43
+    macro avg       0.71      0.58      0.63        43
+ weighted avg       0.86      0.79      0.82        43
+
+
+pretrained
+2019-06-22 16:49:32 INFO     __main__  - F1-Score:  0.9741602067183461
+2019-06-22 16:49:32 INFO     __main__  - Precision: 0.9813953488372094
+2019-06-22 16:49:32 INFO     __main__  - Accuracy:  0.9767441860465116
+2019-06-22 16:49:32 INFO     __main__  - Classification report: 
+               precision    recall  f1-score   support
+
+       affirm       0.80      1.00      0.89         4
+     chitchat       1.00      1.00      1.00         3
+         deny       1.00      0.50      0.67         2
+        greet       1.00      1.00      1.00        13
+       inform       1.00      1.00      1.00        11
+request_hotel       1.00      1.00      1.00         5
+     thankyou       1.00      1.00      1.00         5
+
+    micro avg       0.98      0.98      0.98        43
+    macro avg       0.97      0.93      0.94        43
+ weighted avg       0.98      0.98      0.97        43
+

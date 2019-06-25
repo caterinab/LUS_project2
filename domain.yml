@@ -1,0 +1,88 @@
+intents:
+  - request_hotel:
+      use_entities: false
+  - chitchat:
+      use_entities: false
+  - inform
+  - affirm
+  - deny
+  - stop
+  - thankyou
+  - greet
+
+entities:
+  - city
+  - position
+  - num_people
+  - number
+  - check_in
+  - check_out
+  - stars
+  - property_type
+  
+slots:
+  city:
+    type: unfeaturized
+  position:
+    type: unfeaturized
+  num_people:
+    type: unfeaturized
+  check_in:
+    type: unfeaturized
+  check_out:
+    type: unfeaturized
+  stars:
+    type: unfeaturized
+  property_type:
+    type: unfeaturized
+
+templates:
+  utter_ask_city:
+    - text: "What city?"
+  utter_ask_position:
+    - text: "What position in the city?"
+  utter_ask_num_people:
+    - text: "How many people?"
+  utter_ask_check_in:
+    - text: "In what date interval?"
+  utter_ask_check_out:
+    - text: "What date do you want to check out?"
+  utter_ask_stars:
+    - text: "What star rating?"
+  utter_ask_property_type:
+    - text: "What type of property are you looking for?"
+  utter_submit:
+    - text: "All done! I am going to search an accomodation for:\n
+             - city: {city}\n
+             - position: {position}\n
+             - num_people: {num_people}\n
+             - check_in: {check_in}\n
+             - check_out: {check_out}\n
+             - stars: {stars}\n
+             - property_type: {property_type}"
+  utter_noworries:
+    - text: "You are welcome!"
+  utter_chitchat:
+    - text: "Chitchat"
+  utter_ask_continue:
+    - text: "Do you want to continue?"
+  utter_wrong_option:
+    - text: "The option you chose is not available, please try something else"
+  utter_wrong_num_people:
+    - text: "Number of people should be a positive integer, please try again"
+  utter_wrong_stars:
+    - text: "Stars should be a number between 1 amd 5, please try again"
+  utter_default:
+    - text: "I didn't understand you, please try something else"
+  utter_greet:
+    - text: "Hello! I am your hotel search assistant! How can I help?"
+
+actions:
+  - utter_noworries
+  - utter_chitchat
+  - utter_ask_continue
+  - utter_greet
+
+forms:
+  - hotel_form
+

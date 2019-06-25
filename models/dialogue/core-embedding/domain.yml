@@ -1,0 +1,106 @@
+%YAML 1.1
+---
+actions:
+- utter_slots_values
+- utter_noworries
+- utter_chitchat
+- utter_ask_continue
+- utter_greet
+config:
+  store_entities_as_slots: true
+entities:
+- city
+- position
+- num_people
+- number
+- check_in
+- check_out
+- stars
+- property_type
+forms:
+- hotel_form
+intents:
+- request_hotel:
+    use_entities: false
+- chitchat:
+    use_entities: false
+- inform:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- stop:
+    use_entities: true
+- thankyou:
+    use_entities: true
+- greet:
+    use_entities: true
+slots:
+  check_in:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  check_out:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  city:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  num_people:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  position:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  property_type:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  requested_slot:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  stars:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+templates:
+  utter_ask_check_in:
+  - text: In what date interval?
+  utter_ask_check_out:
+  - text: What date do you want to check out?
+  utter_ask_city:
+  - text: What city?
+  utter_ask_continue:
+  - text: Do you want to continue?
+  utter_ask_num_people:
+  - text: How many people?
+  utter_ask_position:
+  - text: What position in the city?
+  utter_ask_property_type:
+  - text: What type of property are you looking for?
+  utter_ask_stars:
+  - text: What star rating?
+  utter_chitchat:
+  - text: Chitchat
+  utter_default:
+  - text: I didn't understand you, please try something else
+  utter_greet:
+  - text: Hello! I am your hotel search assistant! How can I help?
+  utter_noworries:
+  - text: You are welcome!
+  utter_submit:
+  - text: "All done! I am going to search an accomodation for:\n - city: {city}\n\
+      \ - position: {position}\n - num_people: {num_people}\n - check_in: {check_in}\n\
+      \ - check_out: {check_out}\n - stars: {stars}\n - property_type: {property_type}"
+  utter_wrong_num_people:
+  - text: Number of people should be a positive integer, please try again
+  utter_wrong_option:
+  - text: The option you chose is not available, please try something else
+  utter_wrong_stars:
+  - text: Stars should be a number between 1 amd 5, please try again
